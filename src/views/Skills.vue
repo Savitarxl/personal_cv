@@ -178,14 +178,14 @@
     #spbottom .text1{
         width: 50%;
         font-size:larger;
-        padding: 25px 30px 0 150px;
+        padding: 25px 30px 0 50px;
         line-height: 55px;
     }
     #spbottom .text2{
         width: 50%;
         font-size: larger;
         /* height: 300px; */
-        padding: 25px 30px 0 150px;
+        padding: 25px 30px 0 50px;
         line-height: 35px;
     }
     h1{
