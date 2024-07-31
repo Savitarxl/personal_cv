@@ -8,7 +8,9 @@
 </template>
 <style>
 
-    
+    *{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
     h2 {
         display: inline;
         float: left;
