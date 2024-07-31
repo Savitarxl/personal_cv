@@ -145,11 +145,11 @@
     #epbottom .background{
         background-color: #ffffff;
         width: 100%;
-        height: 100vh;
+        height: 150vh;
      }
     #epbottom .textbackground{
         background-color:#ffffff;
-        height: 600px;
+        height: 100%;
         width:80%;
         margin-left:auto;
         margin-right: auto;
