@@ -6,7 +6,7 @@
                 <li>
                     <h1 class="wellcome">你好！<br>欢迎查看我的个人介绍网页！</h1>
                     <button><a href="#/Mp">了解更多</a></button>
-                    <button  onclick="returntext()">click</button>
+                    <!-- <button  onclick="returntext()">click</button> -->
                 </li>
             </div>
         </div>
@@ -162,19 +162,19 @@
                 // console.log(window.scrollY)
                 // console.log(state.fix)
             })
-            const returntext = () => {
-                fetch('http://127.0.0.1:8000/returntext')
-                    .then(response => response.text())
-                    .then(data => {
-                        // 使用alert显示返回的文本
-                        alert(data);
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                        // 如果发生错误，也可以弹出一个包含错误信息的警告框
-                        alert('An error occurred: ' + error.message);
-                    });
-            }
+            // const returntext = () => {
+            //     fetch('http://127.0.0.1:8000/returntext')
+            //         .then(response => response.text())
+            //         .then(data => {
+            //             // 使用alert显示返回的文本
+            //             alert(data);
+            //         })
+            //         .catch(error => {
+            //             console.error('Error:', error);
+            //             // 如果发生错误，也可以弹出一个包含错误信息的警告框
+            //             alert('An error occurred: ' + error.message);
+            //         });
+            // }
             // const initLine = () => {
             //     state.chartInstance = echarts.init(chartLine.value);
             //     state.links = state.data.map(function(item, i) {
