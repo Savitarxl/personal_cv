@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <el-container id="mpmain">
         <div class="first_contentbox">
             <img src="../assets/Photo/me.jpg">
@@ -315,4 +315,174 @@
 
 
 
+ -->
+ <template>
+    <el-container id="mpmain">
+        <div class="first_contentbox">
+            <img src="../assets/Photo/me.jpg">
+            <div class="text_button">
+                <li>
+                    <h1 class="wellcome">你好！<br>欢迎查看我的个人介绍网页！</h1>
+                    <button><a href="#/Mp">了解更多</a></button>
+                </li>
+            </div>
+        </div>
+    </el-container>
+</template>
 
+<style scoped>
+    *{
+        padding:0px;
+        margin:0px;
+        border:0px;
+        scrollbar-width: none;
+    }
+   .first_contentbox{
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* 在移动端改为垂直布局 */
+        background-image: url("../assets/Photo/壁纸15.jpeg");
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+    img{
+        height: auto;
+        max-height: 40vh; /* 限制图片最大高度 */
+        width: 80%;
+        margin: 20px auto; /* 水平居中 */
+        border: 5px black solid;
+        border-radius: 40px;
+        transition: transform 1s
+    }
+    img:hover{
+        transform: scale(1.02);
+    }
+   .text_button{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    li{
+        list-style-type: none;
+        margin: auto;
+        margin-top: 0px
+    }
+    a{
+        text-decoration: none; 
+        color: rgb(0, 0, 0);
+        font-size: 24px; /* 减小字体大小 */
+        font-weight: bolder;
+        transition: transform 0.5s;
+    }
+    a:hover{
+        transform: scale(1.2);
+    }
+   .wellcome{
+        font-size: 32px; /* 减小字体大小 */
+        color: white;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 60px
+    }
+    button{
+        width: 80%;
+        height: 80px;
+        margin: 20px auto; /* 水平居中 */
+        background-color: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 40px;
+        transition: transform 0.5s 
+    }
+    button:hover{
+        transform: scale(1.2);
+        background-color: rgba(255, 255, 255, 0.7);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);
+    }
+
+    /* 媒体查询，适配移动端 */
+    @media (max-width: 768px) {
+       .first_contentbox {
+            flex-direction: column;
+        }
+        img {
+            height: auto;
+            max-height: 40vh;
+            width: 80%;
+            margin: 20px auto;
+        }
+       .text_button {
+            width: 100%;
+            margin: 0;
+        }
+       .wellcome {
+            font-size: 32px;
+            line-height: 50px;
+        }
+        button {
+            width: 80%;
+            height: 80px;
+            margin: 20px auto;
+        }
+    }
+</style>
+
+<script>
+    import axios from 'axios';
+    import qs from 'qs';
+    import {
+        reactive,
+        toRefs,
+        ref,
+        onBeforeMount,
+    } from "vue"
+    import {
+        useRouter
+    } from "vue-router"
+    import {
+        ElMessage,
+        ElMessageBox
+    } from 'element-plus';
+    import MTopLine from '../components/MTopLine.vue'
+    import TopLine from '../components/TopLine.vue'
+    export default {
+        name: 'Main Page',
+        components: {
+            MTopLine,
+            TopLine
+        },
+        setup() {
+            const router = useRouter();
+            const state = reactive({
+                fix:false,
+                num:123,
+            })
+            const topline = () => {
+                if(window.scrollY>50){
+                    state.fix = true
+                } else{ 
+                    state.fix = false
+                }
+            }
+            const parentMsg=ref('Home')
+            onBeforeMount(() => {
+                topline
+            })
+            window.addEventListener("scroll",()=>{
+                topline()
+            })
+            return { 
+               ...toRefs(state),
+                topline,
+                parentMsg,
+            }
+        }
+    }
+</script>
