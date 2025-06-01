@@ -21,7 +21,7 @@
         display: flex;
         min-height: 100vh;
         background-color: #1a1a1a; /* 添加背景色作为占位 */
-        background-image: url("../assets/Photo/壁纸15.jpeg");
+        background-image: url("../assets/Photo/壁纸15.webp");
         /* 使用will-change提示浏览器优化背景图片渲染 */
         will-change: background-image;
         background-size: cover;
@@ -40,7 +40,7 @@
         right: 0;
         bottom: 0;
         background-color: #1a1a1a; /* 添加背景色作为占位 */
-        background-image: url("../assets/Photo/壁纸15.jpeg");
+        background-image: url("../assets/Photo/壁纸15.webp");
         /* 使用will-change提示浏览器优化背景图片渲染 */
         will-change: background-image;
         background-size: cover;
