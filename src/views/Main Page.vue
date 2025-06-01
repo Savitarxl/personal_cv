@@ -62,7 +62,7 @@
                         <br>
                         期待与各位的交流与合作！
                         <br>
-                        <small>Version: 1.9</small>
+                        <small>Version: 2.0</small>
                     </p>
                 </div>
             </div>   
