@@ -31,7 +31,9 @@
             <div class="textbackground">
                 <div class="text1">
                     <p>
-                        北京师范大学珠海分校（原北京师范大学珠海教育园区）是教育部批准设立、由北京师范大学和珠海市人民政府合作举办、进行本科层次教育的全日制普通高等学校。
+                        <strong><h2>北京师范大学珠海分校</h2></strong>
+                        <br>
+                        是教育部批准设立、由北京师范大学和珠海市人民政府合作举办、进行本科层次教育的全日制普通高等学校。
                         建设珠海分校是北京师范大学建设世界一流大学宏伟目标的重要组成部分。在教育部有关批复精神的指导下，珠海分校坚决执行北京师范大学提出的“资源国有、学校举办、市场运作、全新模式”的建校方针，坚决贯彻“以质量求生存，以创新求发展，以贡献求支持，以共赢求合作”的发展思路，在学校建设与发展中大胆进行教学模式、管理方式、运行机制、国际合作以及产学研一体化方面的改革尝试，努力把学校建设成为教育与科技产业复合发展、特色鲜明的综合性改革实验区，发展成为开放式、有特色、应用型高水平大学。
                         按照教育部的规定，珠海分校的教学组织和管理由北京师范大学负责。北京师范大学高度重视珠海分校的教育质量和办学水平，派出经验丰富的管理干部，负责分校的行政和教育教学管理工作。
                         珠海分校依托北师大的优质学科资源，着眼当代经济发展和社会需求，致力于培养具有宽厚人文、科学素养和学科专业知识的应用型专门人才。建校以来，生源遍及全国二十七个省（自治区、直辖市）及港澳台地区，在四川省和青海省一本批次招生，其余省份在本科批次或二本批次招生。2018年，录取的广东省外一本线上学生比例达到60%。2011年我校与清华大学、北京大学、北京师范大学等63所高校被国家教育部制定列入2012年免试招收香港学生的高校名册。现有在校生达2.3万多人。
@@ -40,7 +42,9 @@
                 </div>
                 <div class="text2">
                     <p>
-                        澳门理工大学（Universidade Politécnica de Macau / Macao Polytechnic University），简称“MPU”，是一所位于中国澳门的教学与科研并重的公立大学，为粤港澳高校联盟、语言大数据联盟、世界翻译教育联盟、大湾区葡语教育联盟成员。 
+                        <strong><h2>澳门理工大学</h2></strong>
+                        <br>
+                        简称“MPU”，是一所位于中国澳门的教学与科研并重的公立大学，为粤港澳高校联盟、语言大数据联盟、世界翻译教育联盟、大湾区葡语教育联盟成员。 
                         澳门理工大学设有15个学术单位，包括艺术及设计学院，应用科学学院，管理科学学院，人文与社会科学学院，健康科学及体育学院，语言及翻译学院，一国两制研究中心，博彩旅游教学及研究中心，葡语教学及研究中心，机器翻译暨人工智能应用技术教育部工程研究中心，教与学中心，持续教育中心，长者书院，国际葡萄牙语培训中心（会议传译），北京大学医学部-澳门理工大学护理书院。 
                         澳门理工大学是中国澳门首个荣获“国家级教学成果奖”、全国唯一三度获得“亚太教育质量奖”的高等院校；大部分专业通过国际性学术评审或专业认证；设有中国港澳地区第一家教育部工程研究中心 ——“机器翻译暨人工智能应用技术教育部工程研究中心”；设有国际英语语言测试系统在澳门高校的唯一考点和博思英语测试中心；亦与欧盟口译总司合作成立国际葡萄牙语培训中心（会议传译）。
                         2024年度英国泰晤士高等教育世界大学影响力(Times Higher Education World University Impact Rankings 2024) 排名中，澳门理工大学跻身世界大学影响力总榜全球排名第301至400名区间，是澳门地区排名最高的高校。 
@@ -104,6 +108,12 @@
         height: 100px;
         width: 100%;
     }
+    #All_Contain{
+        height: 100vh;
+        overflow: auto;
+        background-color: #fbfbfd;
+        box-sizing: border-box;
+    }
     #epmid {
         display: flex;
         justify-content: space-between; /* 这将使得.left和.right分别位于容器的两侧 */
@@ -120,36 +130,58 @@
         justify-content: center; /* 使得schoollogo1在主轴上居中，即水平居中 */
         width: 50%;
         height: 350px;
-        /* background-color: #0000fc; */
+        border: 2px;
         overflow: hidden;
-        padding-left: 160px
-        
-    }
-
-    #epmid .schoollogo1 {
-        height: 250px; /* 根据需要调整高度 */
     }
     #epmid .right{
-        display: flex;
-        align-items: center; /* 使得schoollogo1在交叉轴上居中，即垂直居中 */
-        justify-content: center; /* 使得schoollogo1在主轴上居中，即水平居中 */
         width: 50%;
         height: 350px;
-        /* background-color: #fc0000; */
+        border: 2px;
         overflow: hidden;
-        padding-right: 160px
+    }
+    #epmid .schoollogo1{
+        height: 300px;
+        margin-left: 50px;
     }
     #epmid .schoollogo2{
-        height: 320px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    /* 移动端适配 */
+    @media screen and (max-width: 768px) {
+        #epmid {
+            flex-direction: column;
+            height: auto;
+            padding: 20px 5px;
+            box-sizing: border-box;
+        }
+        #epmid .left,
+        #epmid .right {
+            width: 100%;
+            height: auto;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #epmid .schoollogo1{
+            height: 300px;
+            margin-left: 0;
+            object-fit: contain;
+        }
+        #epmid .schoollogo2 {
+            height: 350px;
+            margin-left: 0;
+            object-fit: contain;
+        }
     }
     #epbottom .background{
         background-color: #ffffff;
         width: 100%;
-        height: 150vh;
+        height: 100vh;
      }
     #epbottom .textbackground{
         background-color:#ffffff;
-        height: 100%;
         width:80%;
         margin-left:auto;
         margin-right: auto;
@@ -168,6 +200,42 @@
         /* height: 300px; */
         padding: 25px 30px 0 30px;
         line-height: 35px;
+    }
+    /* 移动端适配 */
+    @media screen and (max-width: 768px) {
+        #epbottom .textbackground {
+            flex-direction: column;
+            width: 90%;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #epbottom .text1,
+        #epbottom .text2 {
+            width: 100%;
+            padding: 0px 0px;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        #epbottom h2 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #epbottom p {
+            /* text-align: justify; */
+            padding: 0 10px;
+        }
+        #epbottom .background {
+            height: auto;
+            padding-bottom: 30px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        #epbottom p {
+            margin: 0;
+            padding: 0;
+        }
     }
 </style>
 

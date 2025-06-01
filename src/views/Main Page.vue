@@ -29,18 +29,38 @@
             <div class="textbackground">
                 <div class="text1">
                     <p>
-                        大家好，我是一名热情开朗、脚踏实地的研究生，目前就读于澳门理工大学，专注于大数据与物联网领域。我的本科背景是软件工程，这为我打下了坚实的编程和系统开发基础。现在，我正致力于深入研究自然语言处理（NLP）和模型应用，这些技术在当今的人工智能领域中扮演着至关重要的角色。
-                        我的性格特点使我在团队中能够发挥积极的作用。我认真细致，能吃苦耐劳，这让我在面对复杂和挑战性的任务时，总能保持冷静和专注。强烈的责任心驱使我不断追求卓越，确保每一项工作都能达到最高标准。
-                        优秀的沟通能力和协调技巧，让我能够在团队中有效地交流思想，协调资源，推动项目向前发展。我善于在活动后进行总结与反思，这不仅帮助我吸取经验教训，也促进了个人和团队的成长。
-                        对细节的关注是我工作的一个重要方面，我相信"细节决定成败"。
+                        大家好！
+                        我是邓伟豪，目前就读于澳门理工大学，攻读大数据与物联网专业硕士学位（2023.08-2025.06），本科毕业于北京师范大学珠海分校软件工程专业（GPA 3.2/4.0，前 10%，优秀毕业生）。我的专业背景融合了软件工程的底层技术能力与大数据、物联网的前沿技术视野，尤其聚焦于自然语言处理（NLP）、大模型部署与应用、机器学习等领域，擅长将技术理论转化为实际场景中的解决方案。
+                        <br>
+                        <strong>核心能力与技术优势</strong>
+                        <br>
+                        <strong>*AI 与大模型技术：</strong>
+                        熟练掌握机器学习、语音识别、深度学习模型（如 LSTM），具备Qwen2、SD、ChatGLM3-6B 等大型模型的部署与优化经验。例如，在联想 AI Monitor 项目中，通过 Langchain 框架实现 RAG 技术，使模型回答准确率提升 20%；在粤语语音识别项目中，微调 Whisper 模型使粤语识别准确率提升 40%。
+                        <br>
+                        <strong>*产品与技术全流程落地：</strong>
+                        兼具AI 产品经理与算法开发经验，能独立完成从市场调研、需求分析到原型设计、模型部署的全流程工作。曾在深圳易仓科技担任 AI 产品经理实习生，主导完成 6 个高保真原型设计，缩短制作周期 30%；在深圳闪联信息技术有限公司担任 AI 实习生时，全流程参与 AI 硬件产品的算法优化与项目交付，实现客户满意度 95%。
+                        <br>
+                        <strong>*编程与开发技能：</strong>
+                        精通Python、JavaScript、HTML/CSS，熟悉Vue、React 前端框架及React Native 跨平台开发，具备 Web 端与移动端应用开发经验（如澳门旅游 APP 大模型对话系统）
                     </p>
                 </div>
                 <div class="text2">
                     <p>
-                        在工作中，我能够随机应变，保持头脑清晰，这使我能够在压力下做出明智的决策。换位思考的能力让我能够更好地理解他人的需求和观点，从而更有效地解决问题。
-                        我注重高效率地解决问题，这不仅体现在我对时间的管理上，也体现在我对资源的合理分配和利用上。熟练使用各类办公软件，如Microsoft Office套件、数据分析工具等，大大提高了我的工作效率。
-                        同时，我也是一个终身学习者，拥有强烈的学习欲望和快速的学习能力。我喜欢制定计划，这帮助我系统地安排学习和工作，确保目标的实现。
-                        在未来的工作中，我将继续深入学习技术，不断提高自己的技术能力。我相信，通过多动手、多实践，我能够将理论知识转化为实际应用，为团队和项目带来更大的价值。
+                        <strong>职业素养与实践亮点</strong>
+                        <br>
+                        <strong>*团队协作与项目管理：</strong>
+                        具备优秀的沟通协调能力，擅长跨部门协作（如与硬件团队、设计团队配合），曾在 POC 项目中推动软件与硬件兼容，提升项目成功率 20%。作为开发组长，主导 “基于 RNN 的抑郁症预判断” 项目，带领团队完成数据清洗、模型训练全流程，模型准确率提升 15%，成果应用于心理健康监测系统，服务超 1000 名用户。
+                        <br>
+                        <strong>*细节导向与效率优化：</strong>
+                        注重数据驱动决策，擅长通过数据分析优化流程。例如，在需求分析中梳理 20 个高优先级功能，编写详细需求文档；在界面优化中通过用户测试提升满意度 15%，并通过前端响应式设计提升用户满意度 40%。
+                        <br>
+                        <strong>*快速学习与技术探索：</strong>
+                        秉持终身学习理念，持续探索前沿技术（如同声传译技术栈、RAG 架构），曾独立完成 AI 语音对话、会议纪要等功能开发，并为未来技术升级储备关键能力。
+                        <br>
+                        <strong>*未来规划：</strong>
+                        我希望在AI 产品开发、大模型应用落地领域深入发展，将软件工程的系统思维与大数据、NLP 技术结合，通过 “多动手、多实践” 的技术迭代路径，为团队提供从需求分析到技术实现的全链路支持，助力打造兼具创新性与用户价值的 AI 产品。
+                        <br>
+                        期待与各位的交流与合作！
                     </p>
                 </div>
             </div>   
@@ -102,7 +122,7 @@
     }
     #mpmid{
         width: 100%;
-        height: 350px;
+        min-height: 350px;
         display: flex;
         margin: 0px auto;
         background-color: #fbfbfd;
@@ -111,14 +131,12 @@
         width: 45%;
         height: 350px;
         border: 2px;
-        /* background-color: #fbfbfd; */
         overflow: hidden;
     }   
-     #mpmid .right{
+    #mpmid .right{
         width: 55%;
         height: 350px;
         border: 2px;
-        /* background-color: #fbfbfd; */
         overflow: hidden;
     }
     #mpmid .my_photo{
@@ -133,9 +151,7 @@
         margin: 0 auto;
         font-weight: 500;
         margin-top: 50px;
-       
         text-align: right;
-        
     }
     .name2{
         font-size: 30px;
@@ -146,7 +162,50 @@
         margin-left: 0;
         margin-top: 0;
         padding-left: 0;
-        
+    }
+
+    /* 移动端适配 */
+    @media screen and (max-width: 768px) {
+        #mpmid {
+            flex-direction: column-reverse;
+            height: auto;
+            padding: 20px 15px;
+            box-sizing: border-box;
+        }
+        #mpmid .left,
+        #mpmid .right {
+            width: 100%;
+            height: auto;
+            padding: 0 5px;
+            box-sizing: border-box;
+        }
+        #mpmid .my_photo {
+            height: auto;
+            width: 85%;
+            max-width: 300px;
+            margin: 20px auto;
+            display: block;
+        }
+        .name1 {
+            font-size: 38px;
+            height: auto;
+            line-height: normal;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .name2 {
+            font-size: 22px;
+            height: auto;
+            text-align: center;
+            margin: 10px 0;
+            width: 100%;
+        }
+        /* 为整个页面添加默认的盒模型 */
+        #All_Contain {
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
     }
     #mpbottom .background{
         background-color: #ffffff;
@@ -169,9 +228,45 @@
     #mpbottom .text2{
         width: 50%;
         font-size: larger;
-        /* height: 300px; */
         padding: 25px 30px 0 30px;
         line-height: 35px;
+    }
+
+    /* 移动端适配 */
+    @media screen and (max-width: 768px) {
+        #mpbottom .textbackground {
+            width: 100%;
+            flex-direction: column;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #mpbottom .text1,
+        #mpbottom .text2 {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 16px;
+            line-height: 28px;
+            box-sizing: border-box;
+        }
+        #mpbottom .background {
+            height: auto;
+            padding-bottom: 30px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #mpbottom p {
+            margin: 0;
+            padding: 0;
+        }
+        strong {
+            display: block;
+            margin: 15px 0 10px 0;
+        }
+        br {
+            margin-bottom: 8px;
+            display: block;
+            content: "";
+        }
     }
 </style>
 
@@ -278,86 +373,10 @@
             //     })
             // }
             //读取数据库的路线
-            // const getdataL = () => {
-            //     console.log('函数执行了');
-            //     axios({
-            //             url: `API/getline`, //后端的接口地址                    	
-            //             method: "get", //注意，这里没有s！！！
-            //             transformRequest: [
-            //                 function(data) {
-            //                     data = qs.stringify(data);
-            //                     return data;
-            //                 },
-            //             ],
-            //             headers: {
-            //                 "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
-            //             },
-            //             dataType: "json",
-            //         })
-            //         .then((res) => {
-            //             console.log("连接成功"); //这里打印出来是为了更直观的看到连接成功了
-            //             // console.log(res); //res是后端返回来的数据，如果连接成功，则把res打印出来
-            //             state.arr = res.data.msg[0].line1.split(',') //这里进行传回数据的赋值
-            //             res.data.msg.forEach((e) => {
-            //                     state.arrAxisData.push(e.line1.split(','))
-            //                 })
-            //                 // console.log('arraxios:', state.arrAxisData)
-            //                 //this.age = res.data.msg[0].sage //让本页的数据等于回传的数据
-            //         })
-            //         .catch(function(error) {
-            //             console.log("连接失败");
-            //             console.log(error); //如果连接失败，则抛出错误的信息
-            //         });
-            // }
-            // const getdataM = () => {
-            //     console.log('函数执行了');
-            //     axios({
-            //             url: `API/getMission`, //后端的接口地址                    	
-            //             method: "get", //注意，这里没有s！！！
-            //             transformRequest: [
-            //                 function(data) {
-            //                     data = qs.stringify(data);
-            //                     return data;
-            //                 },
-            //             ],
-            //             headers: {
-            //                 "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
-            //             },
-            //             dataType: "json",
-            //         })
-            //         .then((res) => {
-            //             console.log("连接成功"); //这里打印出来是为了更直观的看到连接成功了
-            //             // console.log(res); //res是后端返回来的数据，如果连接成功，则把res打印出来
-            //             console.log(res.data.msg[0].mtitle) //这里进行传回数据的赋值
-            //             res.data.msg.forEach((e) => {
-            //                 state.mtitle.push(e.mtitle)
-            //             })
-            //             res.data.msg.forEach((e) => {
-            //                 state.mtime.push(e.mtime)
-            //             })
-            //             console.log("push完后：" + state.mtime[0])
-            //                 // state.mtitle.push(res.data.msg[0].mtitle)
-            //                 //this.age = res.data.msg[0].sage //让本页的数据等于回传的数据
-            //         })
-            //         .catch(function(error) {
-            //             console.log("连接失败");
-            //             console.log(error); //如果连接失败，则抛出错误的信息
-            //         });
-            // }
-            // onBeforeMount(() => {
-            //     open();
-            //     getdataL();
-            // })
             return { 
                 ...toRefs(state),
                 topline,
                 parentMsg,
-                // ...toRefs(state),
-                // echarts,
-                // chartLine,
-                // logshow,
-                // getdataL,
-                // getdataM,
             }
         }
     }
