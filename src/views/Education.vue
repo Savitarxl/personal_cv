@@ -213,7 +213,7 @@
         #epbottom .text1,
         #epbottom .text2 {
             width: 100%;
-            padding: 15px 10px;
+            padding: 0px 0px;
             font-size: 16px;
             line-height: 28px;
         }
