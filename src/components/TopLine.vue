@@ -20,9 +20,9 @@
         margin: 0px;
         margin-left: 10px;
         margin-right: 20px;
-        font-size: 25px;
+        font-size: 20px;
         color: rgb(0, 0, 0);
-        font-weight: 550;
+        font-weight: 700;
         line-height: 60px;
     }
     .trans{
