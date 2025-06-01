@@ -3,7 +3,7 @@
         <!-- 左侧简历图片区域 -->
         <div class="resume-section">
             <div class="resume-scroll">
-                <img class="resume-image" src="../assets/Photo/CV.jpg" alt="简历图片">
+                <img class="resume-image" loading="lazy" src="../assets/Photo/CV.jpg" alt="简历图片">
             </div>
         </div>
         <!-- 右侧内容区域 -->
@@ -20,7 +20,10 @@
     .split-layout {
         display: flex;
         min-height: 100vh;
-        background: url("../assets/Photo/壁纸15.jpeg");
+        background-color: #1a1a1a; /* 添加背景色作为占位 */
+        background-image: url("../assets/Photo/壁纸15.jpeg");
+        /* 使用will-change提示浏览器优化背景图片渲染 */
+        will-change: background-image;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -36,7 +39,10 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url("../assets/Photo/壁纸15.jpeg");
+        background-color: #1a1a1a; /* 添加背景色作为占位 */
+        background-image: url("../assets/Photo/壁纸15.jpeg");
+        /* 使用will-change提示浏览器优化背景图片渲染 */
+        will-change: background-image;
         background-size: cover;
         background-position: center;
         z-index: -1;

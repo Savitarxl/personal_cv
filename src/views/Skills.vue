@@ -16,10 +16,10 @@
 
       <el-container id="spmid">
             <div class ="left">
-                <img src="../assets/Photo/skills.jpg" class="skillimg"></img>
+                <img loading="lazy" src="../assets/Photo/skills.jpg" alt="技能展示图片" class="skillimg">
             </div>
             <div class ="right">
-                <img src="..\assets\Photo\Project.png" class="projectimg"></img>
+                <img loading="lazy" src="..\assets\Photo\Project.png" alt="项目展示图片" class="projectimg">
             </div>
       </el-container>
         

@@ -19,7 +19,7 @@
             <h1 class="name1">邓 伟 豪<br><p class="name2">S a v i t a r</p></h1>
             </div>
             <div class ="right">
-                <img src="../assets/Photo/1.png" alt="" class="my_photo">
+                <img loading="lazy" src="../assets/Photo/1.png" alt="邮伟豪的照片" class="my_photo">
             </div>
         </el-container>
         

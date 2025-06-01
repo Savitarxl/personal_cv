@@ -16,11 +16,11 @@
 
       <el-container id="epmid">
             <div class ="left">
-                <img src="..\assets\Photo\北师.png" alt="" class="schoollogo1">
+                <img loading="lazy" src="..\assets\Photo\北师.png" alt="北京师范大学珠海分校校徽" class="schoollogo1">
                 <!-- <p class="schoolname1">北京师范大学.珠海</p> -->
             </div>
             <div class ="right">
-                <img src="..\assets\Photo\澳理.png" alt="" class="schoollogo2">
+                <img loading="lazy" src="..\assets\Photo\澳理.png" alt="澳门理工大学校徽" class="schoollogo2">
                 <!-- <p class="schoolname1">澳门理工大学</p> -->
             </div>
         </el-container>

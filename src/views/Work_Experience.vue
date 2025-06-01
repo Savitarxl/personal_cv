@@ -15,7 +15,7 @@
       </el-container>
 
        <el-container id="wpmid">
-                <img src="..\assets\Photo\work.png" alt="" class="work_photo">
+                <img loading="lazy" src="..\assets\Photo\work.png" alt="工作经验展示图片" class="work_photo">
        </el-container>
         
         <!-- 底部 -->
