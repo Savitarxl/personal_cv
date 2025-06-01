@@ -213,7 +213,7 @@
         #epbottom .text1,
         #epbottom .text2 {
             width: 100%;
-            padding: 0px 0px;
+            padding: 15px 10px;
             font-size: 16px;
             line-height: 28px;
         }
@@ -224,6 +224,7 @@
         }
         #epbottom p {
             /* text-align: justify; */
+            margin: 0;
             padding: 0 10px;
         }
         #epbottom .background {
@@ -231,10 +232,6 @@
             padding-bottom: 30px;
             padding: 5px;
             box-sizing: border-box;
-        }
-        #epbottom p {
-            margin: 0;
-            padding: 0;
         }
     }
 </style>
