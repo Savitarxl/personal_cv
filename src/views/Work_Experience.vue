@@ -29,8 +29,10 @@
             <div class="textbackground">
                 <div class="text1">
                     <strong><h2>深圳闪联信息技术有限公司</h2></strong>
+                    <br>
                     <p>
                         深圳闪联成立于2006年，注册资金10111.12万元深圳市闪联信息技术有限公司(以下简称:深圳闪联深圳闪联是一家以闪联标准为基础，在智能连接、智食音视频等领域，为全球知名品牌厂商提供高效办公硬件、软件及系统产品解决方案!以领先的技术标准构交产业创新生态;核心团队来源于IT行业500强公司、国内软件行业上市公司等;其中研发和项目人员超过55%克科技大厦，2009年，建立深圳市第一家国家工程实总部位于深圳市南山区粤海街道麻岭社区科研路9号比验室-电子信息产品协同互联国家工程实验室;
+                        <br>
                         <br>
                         <h3>工作内容</h3>
                         <p>
@@ -57,8 +59,11 @@
                 </div>
                 <div class="text2">
                     <strong><h2>深圳易仓科技有限公司</h2></strong>
+                    <br>
                     <p>
                         跨境行业全生态链软件服务供应商，深圳市易仓科技有限公司一直致力于研发高效可控的跨境管理模式。精研跨境电商ERP、国际物流TMS、海外仓WMS和跨境分销M2B等管理系统。汇集目前国内强大的IT团队，创始人和开发巨匠均在跨境B2C、海外仓、国际物流等领域有5-12年研发经验，ECCANG目前已和国内外众多跨境卖家、海外仓服务商和国际物流等跨境巨头合作。跨境业务不断发展，ECCANG管理软件每月也更新大量功能，以确保客户使用软件在跨境行业占有优势地位！
+                        <br>
+                        <br>
                         <h3>工作内容</h3>
                         <p>
                             <strong>市场调研：</strong>AI电商产品市场进行分析，收集用户需求及竞品信息。
@@ -180,7 +185,7 @@
     #wpbottom .background {
         background-color: #ffffff;
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
 
     #wpbottom .textbackground {
@@ -194,14 +199,14 @@
     #wpbottom .text1 {
         width: 50%;
         font-size: larger;
-        padding: 25px 30px 0 30px;
+        padding: 25px 25px 0 0px;
         line-height: 35px;
     }
     
     #wpbottom .text2 {
         width: 50%;
         font-size: larger;
-        padding: 25px 30px 0 30px;
+        padding: 25px 0px 0 35px;
         line-height: 35px;
     }
     /* 移动端适配 */

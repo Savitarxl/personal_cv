@@ -178,7 +178,7 @@
     #epbottom .background{
         background-color: #ffffff;
         width: 100%;
-        height: 100vh;
+        height: 100%;
      }
     #epbottom .textbackground{
         background-color:#ffffff;

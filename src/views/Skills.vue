@@ -16,10 +16,10 @@
 
       <el-container id="spmid">
             <div class ="left">
-                <img loading="lazy" src="../assets/Photo/skills.jpg" alt="技能展示图片" class="skillimg">
+                <img loading="lazy" src="../assets/Photo/skills.webp" alt="技能展示图片" class="skillimg">
             </div>
             <div class ="right">
-                <img loading="lazy" src="..\assets\Photo\Project.png" alt="项目展示图片" class="projectimg">
+                <img loading="lazy" src="../assets/Photo/Trans.webp" alt="项目展示图片" class="projectimg">
             </div>
       </el-container>
         
@@ -30,43 +30,65 @@
                 <div class="text1">
                     <h1>个人技能</h1>
                     <p>
-                        <b>编程语言：</b>熟练掌握C++、Java、JavaScript、CSS、HTML，有实际项目经验<br>
-                        <b>数据库：</b>熟悉MySQL，能够进行数据库设计和查询优化，在Windows及linux都有开发经验<br>
-                        <b>机器学习与AI：</b>了解机器学习基础，熟练使用Lstm等模型，有AI应用开发经验<br>
-                        <b>前端开发：</b>精通Web前端开发，使用Vue、React等框架<br>
-                        <b>办公软件：</b>熟练使用各类办公软件，具备高效的数据分析和报告撰写能力<br>
-                        <b>英语水平：</b>CET4,研究生阶段全英授课
+                        <b>*产品规划与需求分析：</b>熟悉产品市场研究，定位以及用户需求的验证确认和需求文档撰写<br>
+                        <b>*人工智能：</b>掌握AI相关技术，包括机器学习、语音识别，熟悉LSTM等深度学习模型<br>
+                        <b>*原型设计与制作：</b>具备高效原型制作能力，能够精准呈现产品构想<br>
+                        <b>*数据分析：</b>具备数据分析能力，能够进行数据驱动的决策支持<br>
+                        <b>*编程语言：</b>熟练掌握Python、JavaScript，具备机器学习、语音识别相关编程经验<br>
+                        <b>*前端开发：</b>精通前端开发技术，包括HTML、CSS、JavaScript，熟悉Vue等前端框架<br>
+                        <b>*办公软件：</b>熟练使用各类办公软件，具备高效的数据分析和报告撰写能力<br>
+                        <b>*英语水平：</b>CET4,研究生阶段全英授课
                     </p>
-                    
                 </div>
+                <br>
+                <br>
                 <div class="text2">
-                    <h1>1.澳门旅游APP大模型对话系统</h1>
-                    <p>
-                        <strong>项目个人工作内容</strong><br>
-                        <b>移动端应用开发：</b>与澳门相关部门紧密合作，负责开发一款集成了旅游文化资讯的移动APP，整合热门景点、活动和AI对话服务。<br>
-                        <b>技术栈应用：</b>运用React Native进行安卓前端界面开发，确保APP的跨平台兼容性和高性能表现。<br>
-                        <b>AI系统集成：</b>探索并实施服务器端部署大型语言模型构建了稳定的对话系统为用户提供互动体验。<br>
-                    </p>
+                    <h1>项目经历</h1>
                     <br>
-                    <h1>2.关于RNN的抑郁症预判断</h1>
+                    <h1>1.基于finetuning——whisper的粤语语音识别以多语种字幕生成</h1>
                     <p>
                         <strong>项目个人工作内容</strong><br>
-                        <b>模型开发：</b>参与开发针对抑郁症识别的AI应用，成功运用LSTM和RNN等先进机器学习模型，提升模型性能。<br>
-                        <b>数据处理：</b>独立研究并选取合适数据集完成数据清洗和预处理为模型训练和验证提供高质量数据。<br>
-                        <b>模型优化：</b>负责RNN模型训练，通过实验和微调，显著提高模型准确率。<br>
-                        <b>界面开发：</b>利用PYQT5工具包开发前端交互界面，实现用户与AI应用的互动，增强用户体验。<br>
-                    </p>
-                    <br>
-                    <h1>3.基于finetuning——whisper的粤语语音识别以多语种字幕生成</h1>
-                    <p>
-                        <strong>项目个人工作内容</strong><br>
-                        <b>数据收集：</b>收集大量的粤语语音数据集以及公开的语音数据库。<br>
                         <b>预处理：</b>对收集到的粤语语音数据进行预处理，包括去噪、标准化音量、分割音频片段等，以提高语音识别的准确性。<br>
                         <b>Fine-tuning Whisper模型：</b>使用收集到的粤语语音数据对Whisper模型进行微调（Fine-tuning）。这个过程涉及到调整模型的参数，使其更好地适应粤语的语音特征。<br>
                         <b>多语种字幕生成</b>：在模型训练完成后，可以利用该模型进行实时或批量的粤语语音识别。然后，将识别出的文本翻译成所需的多种语言，并生成相应的字幕。<br>
                         <b>字幕同步：</b>确保生成的字幕与语音同步，这可能需要进一步的算法来分析语音的节奏和语调，以实现准确的时间对齐。<br>
                         <b>用户界面：</b>开发一个用户友好的界面，使用户可以轻松上传粤语音频文件，选择所需的字幕语言，并下载生成的字幕文件。<br>
                         <b>测试与优化：</b>在系统开发过程中，不断测试并优化模型的性能，确保语音识别的准确性和字幕生成的质量。<br>
+                        <b>识别准确率提升：</b>通过模型微调，粤语识别准确率提升40%，显著改善用户体验。<br>
+                        <b>算法性能提升：</b>VAD算法时间戳正确率提升20%，多语字幕翻译准确度提高12%，大幅提升系统性能。<br>
+                        <b>工作效率提升：</b>优化用户界面和工作流程，团队工作效率提升20%，有效缩短项目周期。<br>
+                        <b>技术储备：</b>完成同声传译技术栈探索，为未来应用升级提供有力技术支持。<br>
+                        <b>合作成果：与澳门广播电视台成功合作，项目成果获得高度认可，提升影响力。</b><br>
+                    </p>
+                    <br>
+                    <h1>2.联想AI Monitor</h1>
+                    <p>
+                        <strong>项目个人工作内容</strong><br>
+                        <b>性能提升:</b>通过优化API调用效率，提升系统整体性能，调用效率提高30%。<br>
+                        <br>
+                        <b>准确率提升:</b>利用Langchain框架实现RAG，使模型回答准确率提升20%，显著提高产品智能化水平。<br>
+                        <br>
+                        <b>市场认可:此POC产品成功参加CES展会，获得业界广泛关注和认可。</b><br>
+                    </p>
+                    <br>
+                    <h1>3.澳门旅游APP大模型对话系统</h1>
+                    <p>
+                        <strong>项目个人工作内容</strong><br>
+                        <b>移动端应用开发：</b>与澳门相关部门紧密合作，负责开发一款集成了旅游文化资讯的移动APP，整合热门景点、活动和AI对话服务。<br>
+                        <b>技术栈应用：</b>运用React Native进行安卓前端界面开发，确保APP的跨平台兼容性和高性能表现。<br>
+                        <b>AI系统集成：</b>探索并实施服务器端部署大型语言模型构建了稳定的对话系统为用户提供互动体验。<br>
+                        <b>用户体验提升：</b>通过AI对话服务的优化，用户满意度提升30%，互动频率增加25%。<br>
+                        <b>系统稳定性：</b>成功部署ChatGLM3-6B模型后，对话系统稳定性达到90%，有效减少了故障率。<br>
+                        <b>技术贡献：</b>在前端框架和AI集成的技术创新应用中，为项目节省了20%的开发时间，提升了整体开发效率。<br>
+                    </p>
+                    <br>
+                    <h1>4.关于RNN的抑郁症预判断</h1>
+                    <p>
+                        <strong>项目个人工作内容</strong><br>
+                        <b>模型开发：</b>参与开发针对抑郁症识别的AI应用，成功运用LSTM和RNN等先进机器学习模型，提升模型性能。<br>
+                        <b>数据处理：</b>独立研究并选取合适数据集完成数据清洗和预处理为模型训练和验证提供高质量数据。<br>
+                        <b>模型优化：</b>负责RNN模型训练，通过实验和微调，显著提高模型准确率。<br>
+                        <b>界面开发：</b>利用PYQT5工具包开发前端交互界面，实现用户与AI应用的互动，增强用户体验。<br>
                     </p>
                 </div>
             </div>   
@@ -173,7 +195,34 @@
     #spmid .projectimg {
         border: 2px white solid;
     }
-    
+    #spbottom .background{
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+     }
+    #spbottom .textbackground{
+        background-color:#ffffff;
+        width:80%;
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+    }
+    #spbottom .text1{
+        width: 100%;
+        font-size:larger;
+        padding: 25px 30px 0 50px;
+        line-height: 55px;
+    }
+    #spbottom .text2{
+        width: 100%;
+        font-size: larger;
+        /* height: 300px; */
+        padding: 25px 30px 0 50px;
+        line-height: 35px;
+    }
+    h1{
+        font-size: larger;
+    }
     /* 移动端适配 */
     @media screen and (max-width: 768px) {
         #spmid {
@@ -248,221 +297,39 @@
             box-sizing: border-box;
         }
     }
-
-
-    #spbottom .background{
-        background-color: #ffffff;
-        width: 100%;
-        height: 100%;
-     }
-    #spbottom .textbackground{
-        background-color:#ffffff;
-        width:80%;
-        margin-left:auto;
-        margin-right: auto;
-        display: flex;
-    }
-    #spbottom .text1{
-        width: 100%;
-        font-size:larger;
-        /* padding: 25px 30px 0 50px; */
-        line-height: 55px;
-    }
-    #spbottom .text2{
-        width: 100%;
-        font-size: larger;
-        /* height: 300px; */
-        /* padding: 25px 30px 0 50px; */
-        line-height: 35px;
-    }
-    h1{
-        font-size: larger;
-    }
 </style>
 
 <script>
-    import axios from 'axios';
-    import qs from 'qs';
-    import {
-        reactive,
-        toRefs,
-        ref,
-        onBeforeMount,
-    } from "vue"
-    import {
-        useRouter
-    } from "vue-router"
-    import {
-        ElMessage,
-        ElMessageBox
-    } from 'element-plus';
-    // 引入组件
+    import { reactive, toRefs, ref, onBeforeMount } from "vue"
     import MTopLine from '../components/MTopLine.vue'
     import TopLine from '../components/TopLine.vue'
+    
     export default {
-        name: 'Main Page',
-        // 引入组件
+        name: 'Skills',
         components: {
             MTopLine,
             TopLine
         },
         setup() {
-            const router = useRouter();
             const state = reactive({
-                fix:false,
-                num:123,
+                fix: false
             })
+            
             const topline = () => {
-                if(window.scrollY>50){
-                    state.fix = true
-                    // console.log('yes')
-                }
-                else{ 
-                    state.fix = false
-                    // console.log('no')
-                }
+                state.fix = window.scrollY > 50
             }
-            const parentMsg=ref('Projects & Skills')
+            
+            const parentMsg = ref('Projects & Skills')
+            
             onBeforeMount(() => {
-                topline
-            })
-            window.addEventListener("scroll",()=>{
                 topline()
-                // console.log(window.scrollY)
-                // console.log(state.fix)
             })
-            // const initLine = () => {
-            //     state.chartInstance = echarts.init(chartLine.value);
-            //     state.links = state.data.map(function(item, i) {
-            //         return {
-            //             source: i,
-            //             target: i + 1
-            //         };
-            //     })
-            //     // state.chartInstance.setOption({
-            //     //     xAxis: {
-            //     //         type: 'category',
-            //     //         boundaryGap: false,
-            //     //         show: false,
-            //     //         data: state.axisData,
-            //     //     },
-            //     //     yAxis: {
-            //     //         type: 'value',
-            //     //         show: false,
-            //     //     },
-            //     //     series: [{
-            //     //         type: 'graph',
-            //     //         layout: 'none',
-            //     //         coordinateSystem: 'cartesian2d',
-            //     //         symbolSize: 100,
-            //     //         label: {
-            //     //             show: true
-            //     //         },
-            //     //         edgeSymbol: ['circle', 'arrow'],
-            //     //         edgeSymbolSize: [4, 20],
-            //     //         data: state.data,
-            //     //         links: state.links,
-            //     //         label: {
-            //     //             fontSize: 20,
-            //     //             show: true,
-            //     //         },
-            //     //         itemStyle: {
-            //     //             color: "#ffffff"
-            //     //         },
-            //     //         lineStyle: {
-            //     //             color: "#000000",
-            //     //             width: 5,
-            //     //             type: 'dashed'
-            //     //         }
-            //     //     }]
-            //     // })
-            // }
-            // const open = () => {
-            //     nextTick(() => {
-            //         initLine()
-            //     })
-            // }
-            //读取数据库的路线
-            // const getdataL = () => {
-            //     console.log('函数执行了');
-            //     axios({
-            //             url: `API/getline`, //后端的接口地址                    	
-            //             method: "get", //注意，这里没有s！！！
-            //             transformRequest: [
-            //                 function(data) {
-            //                     data = qs.stringify(data);
-            //                     return data;
-            //                 },
-            //             ],
-            //             headers: {
-            //                 "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
-            //             },
-            //             dataType: "json",
-            //         })
-            //         .then((res) => {
-            //             console.log("连接成功"); //这里打印出来是为了更直观的看到连接成功了
-            //             // console.log(res); //res是后端返回来的数据，如果连接成功，则把res打印出来
-            //             state.arr = res.data.msg[0].line1.split(',') //这里进行传回数据的赋值
-            //             res.data.msg.forEach((e) => {
-            //                     state.arrAxisData.push(e.line1.split(','))
-            //                 })
-            //                 // console.log('arraxios:', state.arrAxisData)
-            //                 //this.age = res.data.msg[0].sage //让本页的数据等于回传的数据
-            //         })
-            //         .catch(function(error) {
-            //             console.log("连接失败");
-            //             console.log(error); //如果连接失败，则抛出错误的信息
-            //         });
-            // }
-            // const getdataM = () => {
-            //     console.log('函数执行了');
-            //     axios({
-            //             url: `API/getMission`, //后端的接口地址                    	
-            //             method: "get", //注意，这里没有s！！！
-            //             transformRequest: [
-            //                 function(data) {
-            //                     data = qs.stringify(data);
-            //                     return data;
-            //                 },
-            //             ],
-            //             headers: {
-            //                 "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
-            //             },
-            //             dataType: "json",
-            //         })
-            //         .then((res) => {
-            //             console.log("连接成功"); //这里打印出来是为了更直观的看到连接成功了
-            //             // console.log(res); //res是后端返回来的数据，如果连接成功，则把res打印出来
-            //             console.log(res.data.msg[0].mtitle) //这里进行传回数据的赋值
-            //             res.data.msg.forEach((e) => {
-            //                 state.mtitle.push(e.mtitle)
-            //             })
-            //             res.data.msg.forEach((e) => {
-            //                 state.mtime.push(e.mtime)
-            //             })
-            //             console.log("push完后：" + state.mtime[0])
-            //                 // state.mtitle.push(res.data.msg[0].mtitle)
-            //                 //this.age = res.data.msg[0].sage //让本页的数据等于回传的数据
-            //         })
-            //         .catch(function(error) {
-            //             console.log("连接失败");
-            //             console.log(error); //如果连接失败，则抛出错误的信息
-            //         });
-            // }
-            // onBeforeMount(() => {
-            //     open();
-            //     getdataL();
-            // })
+            
+            window.addEventListener("scroll", topline)
+            
             return { 
                 ...toRefs(state),
-                topline,
-                parentMsg,
-                // ...toRefs(state),
-                // echarts,
-                // chartLine,
-                // logshow,
-                // getdataL,
-                // getdataM,
+                parentMsg
             }
         }
     }
