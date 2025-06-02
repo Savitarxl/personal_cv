@@ -1,6 +1,6 @@
 <template>
     <div id="top">
-        <h2 class="title">{{info}} Content</h2>
+        <h2 class="title">{{info}}</h2>
         <a href="#/"><img src="..\assets\Photo\简历.png" class="trans" title="返回简历页"></a>
     </div>
 </template>

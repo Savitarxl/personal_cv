@@ -15,10 +15,12 @@
       </el-container>
 
        <el-container id="wpmid">
-                <div class="image-container">
-                    <div class="image-placeholder" :class="{ 'hidden': workLoaded }"></div>
-                    <img loading="lazy" src="..\assets\Photo\work.png" alt="工作经验展示图片" class="work_photo" :class="{ 'loaded': workLoaded }" @load="workLoaded = true">
-                </div>
+            <div class ="left">
+                <img loading="lazy" src="..\assets\Photo\闪联.webp" alt="闪联公司logo" class="work_photo1">
+            </div>
+            <div class ="right">
+                <img loading="lazy" src="..\assets\Photo\易仓.webp" alt="中移公司logo" class="work_photo2">
+            </div>
        </el-container>
         
         <!-- 底部 -->
@@ -26,15 +28,58 @@
             <div class="background">
             <div class="textbackground">
                 <div class="text1">
+                    <strong><h2>深圳闪联信息技术有限公司</h2></strong>
                     <p>
-                        中移通信技术有限公司是中国移动通信有限公司于2015年9月7日成立的独资有限责任公司，总部位于北京，注册资金10亿元。中移通信技术有限公司是中国移动通信集团公司控股的中国移动通信有限公司的全资子公司。
-                        2015年11月27日，中移铁通有限公司与中国铁通集团有限公司达成收购协议，中移铁通收购中国铁通资产和业务，收购价格为318.8亿元。中移铁通有限公司是中国移动为本次收购而设立的一家全资附属公司。
-                        据悉，中移铁通收购的铁通资产和业务包括约9.9万皮长公里的全国骨干网络、约182.2万皮长公里的城市光缆、约2471万个IPv4地址资源、房屋1814项及土地685项、约1198万的固网宽带用户和约1829万固话用户（其中含1388万的传统固话用户）。此外，中移铁通还将接收铁通约4.7万固网运营人员。至此，中移铁通实际上接手铁通的核心资产及业务。根据中国移动公告，中移铁通收购的若干资产2014年实现了233.43亿元收入，税后净利润为1000万；2015年前5个月的收入约为93.44亿元，税后净利润为3300万。
+                        深圳闪联成立于2006年，注册资金10111.12万元深圳市闪联信息技术有限公司(以下简称:深圳闪联深圳闪联是一家以闪联标准为基础，在智能连接、智食音视频等领域，为全球知名品牌厂商提供高效办公硬件、软件及系统产品解决方案!以领先的技术标准构交产业创新生态;核心团队来源于IT行业500强公司、国内软件行业上市公司等;其中研发和项目人员超过55%克科技大厦，2009年，建立深圳市第一家国家工程实总部位于深圳市南山区粤海街道麻岭社区科研路9号比验室-电子信息产品协同互联国家工程实验室;
+                        <br>
+                        <h3>工作内容</h3>
+                        <p>
+                            <strong>模型部署：</strong>成功部署Qwen2、SD等大型AI模型至生产环境，确保服务的稳定运行，提升系统性能30%。
+                            <br>
+                            <strong>硬件协调：</strong>参与多个与联想的POC项目，与硬件部门紧密协作，确保软件与硬件的完美兼容，提升项目成功率20%。
+                            <br>
+                            <strong>界面改造：</strong>实现响应式设计，改造前端界面，显著提升用户体验，用户满意度提高40%。
+                            <br>
+                            <strong>模型应用：</strong>实现不同场景下的AI赋能，为联想、小米、华为等客户的POC项目提供高效服务，客户满意度达95%。
+                        </p>
+                        <br>
+                        <h3>工作成绩</h3>
+                        <p>
+                            <strong>功能开发：</strong>100%独立完成AI WorkStation设备云端路线的AI语音对话、会议纪要、同声传译功能开发。
+                            <br>
+                            <strong>算法优化：</strong>完成AI Memo设备的AI摘要算法优化，提升摘要准确率20%，显著提高用户工作效率。
+                            <br>
+                            <strong>技术研发：</strong>全流程参与AI Monitor的基于RAG的意图识别算法开发和优化，提升25%回答准确率，确保技术领先。
+                            <br>
+                            <strong>项目交付：</strong>全流程参与产品需求分析、方案确定、开发及后期调优，确保项目按时交付，项目交付率100%。
+                        </p>
                     </p>
                 </div>
                 <div class="text2">
+                    <strong><h2>深圳易仓科技有限公司</h2></strong>
                     <p>
-                        在我的实习期间，我深入参与了公司的核心业务流程，积累了丰富的工作经验和专业技能。我主要负责数据处理工作，包括数据的汇总、清洗、存储以及通过自动化脚本和软件优化数据流程，确保了数据的高效处理和准确性。此外，我还利用数据可视化工具，将复杂数据转化为直观的图表和图形，便于团队成员理解。在项目分析方面，我运用统计方法深入挖掘项目数据，发现趋势和模式，并与项目团队紧密合作，为项目决策提供了有力的数据支持。同时，我也全面了解了公司的业务流程和市场趋势，通过与业务团队的沟通，我提出了基于数据的业务发展策略和优化建议。通过跨部门的项目合作，我提升了跨领域的沟通能力和团队协作能力。这段实习经历不仅让我在数据分析和业务洞察方面得到了锻炼，也为我未来的职业发展奠定了坚实的基础。
+                        跨境行业全生态链软件服务供应商，深圳市易仓科技有限公司一直致力于研发高效可控的跨境管理模式。精研跨境电商ERP、国际物流TMS、海外仓WMS和跨境分销M2B等管理系统。汇集目前国内强大的IT团队，创始人和开发巨匠均在跨境B2C、海外仓、国际物流等领域有5-12年研发经验，ECCANG目前已和国内外众多跨境卖家、海外仓服务商和国际物流等跨境巨头合作。跨境业务不断发展，ECCANG管理软件每月也更新大量功能，以确保客户使用软件在跨境行业占有优势地位！
+                        <h3>工作内容</h3>
+                        <p>
+                            <strong>市场调研：</strong>AI电商产品市场进行分析，收集用户需求及竞品信息。
+                            <br>
+                            <strong>需求分析：</strong>通过调查，梳理用户需求和产品功能优先级，编写需求文档。
+                            <br>
+                            <strong>原型制作：</strong>用原型平台或者前端代码进行原型制作
+                            <br>
+                            <strong>设计协助：</strong>协助设计团队界面优化，提升用户体验，确保产品功能实现与设计一致。
+                        </p>
+                        <br>
+                        <h3>工作成绩</h3>
+                        <p>
+                            <strong>市场洞察：</strong>收集并分析了超过数10个AI电商产品数据，分析需求和主要竞品优势。
+                            <br>
+                            <strong>需求梳理：</strong>成功梳理出20个高优先级功能需求，编写了详细的需求文档。
+                            <br>
+                            <strong>原型设计：</strong>利用原型平台和前端开发，独立完成了多个高保真原型，缩短周期30%。
+                            <br>
+                            <strong>界面优化：</strong>协助进行界面优化，通过用户测试反馈，提升了用户体验满意度15%。
+                        </p>
                     </p>
                 </div>
             </div>   
@@ -94,90 +139,149 @@
         height: 100px;
         width: 100%;
     }
-    #wpmid{
+    #wpmid {
         width: 100%;
-        height: 350px;
+        height: 400px;
         display: flex;
-        align-items: center; /* 使得schoollogo1在交叉轴上居中，即垂直居中 */
-        justify-content: center; /* 使得schoollogo1在主轴上居中，即水平居中 */
-        margin: 0px auto;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px auto;
         background-color: #fbfbfd;
-        overflow: hidden;
+        padding: 0 30px;
+        box-sizing: border-box;
     }
 
-    .image-container {
-        position: relative;
-        height: 450px;
-        overflow: hidden;
+    #wpmid .left,
+    #wpmid .right {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 45%;
+        height: 350px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        box-sizing: border-box;
+        transition: transform 0.3s ease;
     }
-    
-    .image-placeholder {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 8px;
-        z-index: 1;
-        animation: pulse 1.5s infinite alternate;
-        opacity: 1;
-        transition: opacity 0.5s ease;
+
+    #wpmid .left:hover,
+    #wpmid .right:hover {
+        transform: translateY(-5px);
     }
-    
-    .image-placeholder.hidden {
-        opacity: 0;
+
+    #wpmid .work_photo1,
+    #wpmid .work_photo2 {
+        max-height: 280px;
+        max-width: 90%;
+        object-fit: contain;
     }
-    
-    #wpmid .work_photo{
-        height: 450px;
-        position: relative;
-        z-index: 2;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-    
-    #wpmid .work_photo.loaded {
-        opacity: 1;
-    }
-    
-    @keyframes pulse {
-        0% {
-            opacity: 0.5;
-        }
-        100% {
-            opacity: 0.8;
-        }
-    }
-    #wpbottom .background{
+    #wpbottom .background {
         background-color: #ffffff;
         width: 100%;
         height: 100vh;
-     }
-    #wpbottom .textbackground{
-        background-color:#ffffff;
-        width:80%;
-        margin-left:auto;
+    }
+
+    #wpbottom .textbackground {
+        background-color: #ffffff;
+        width: 80%;
+        margin-left: auto;
         margin-right: auto;
         display: flex;
     }
-    #wpbottom .text1{
+
+    #wpbottom .text1 {
         width: 50%;
         font-size: larger;
         padding: 25px 30px 0 30px;
         line-height: 35px;
     }
-    #wpbottom .text2{
+    
+    #wpbottom .text2 {
         width: 50%;
         font-size: larger;
-        /* height: 300px; */
         padding: 25px 30px 0 30px;
         line-height: 35px;
+    }
+    /* 移动端适配 */
+    @media screen and (max-width: 768px) {
+        #wpmid {
+            flex-direction: column;
+            height: auto;
+            padding: 20px 15px;
+            margin: 10px auto;
+        }
+        
+        #wpmid .left,
+        #wpmid .right {
+            width: 90%;
+            height: auto;
+            margin-bottom: 25px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        
+        #wpmid .work_photo1,
+        #wpmid .work_photo2 {
+            height: auto;
+            width: 100%;
+            max-height: 180px;
+            margin: 0 auto;
+        }
+        
+        #wpmid .left:hover,
+        #wpmid .right:hover {
+            transform: none;
+        }
+        
+        /* 易仓科技标题上方的分隔线，只在移动端显示 */
+        #wpbottom .text2 h2::before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: #333;
+            margin: 20px auto 15px;
+        }
+        
+        #wpbottom .textbackground {
+            flex-direction: column;
+            width: 90%;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #wpbottom .text1,
+        #wpbottom .text2 {
+            width: 100%;
+            padding: 0px 0px;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        
+        #wpbottom h2 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #wpbottom p {
+            margin: 0;
+            padding: 0 10px;
+        }
+        
+        #wpbottom .background {
+            height: auto;
+            padding: 5px 5px 30px 5px;
+            box-sizing: border-box;
+        }
+        
+        #wpbottom p {
+            margin: 0;
+            padding: 0 10px;
+        }
     }
 </style>
 
@@ -212,7 +316,6 @@
             const state = reactive({
                 fix:false,
                 num:123,
-                workLoaded: false,
             })
             const topline = () => {
                 if(window.scrollY>50){

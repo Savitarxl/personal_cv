@@ -16,16 +16,10 @@
 
       <el-container id="spmid">
             <div class ="left">
-                <div class="image-container">
-                    <div class="image-placeholder" :class="{ 'hidden': skillsLoaded }"></div>
-                    <img loading="lazy" src="../assets/Photo/skills.jpg" alt="技能展示图片" class="skillimg" :class="{ 'loaded': skillsLoaded }" @load="skillsLoaded = true">
-                </div>
+                <img loading="lazy" src="../assets/Photo/skills.jpg" alt="技能展示图片" class="skillimg">
             </div>
             <div class ="right">
-                <div class="image-container">
-                    <div class="image-placeholder" :class="{ 'hidden': projectLoaded }"></div>
-                    <img loading="lazy" src="..\assets\Photo\Project.png" alt="项目展示图片" class="projectimg" :class="{ 'loaded': projectLoaded }" @load="projectLoaded = true">
-                </div>
+                <img loading="lazy" src="..\assets\Photo\Project.png" alt="项目展示图片" class="projectimg">
             </div>
       </el-container>
         
@@ -34,6 +28,7 @@
             <div class="background">
             <div class="textbackground">
                 <div class="text1">
+                    <h1>个人技能</h1>
                     <p>
                         <b>编程语言：</b>熟练掌握C++、Java、JavaScript、CSS、HTML，有实际项目经验<br>
                         <b>数据库：</b>熟悉MySQL，能够进行数据库设计和查询优化，在Windows及linux都有开发经验<br>
@@ -42,6 +37,7 @@
                         <b>办公软件：</b>熟练使用各类办公软件，具备高效的数据分析和报告撰写能力<br>
                         <b>英语水平：</b>CET4,研究生阶段全英授课
                     </p>
+                    
                 </div>
                 <div class="text2">
                     <h1>1.澳门旅游APP大模型对话系统</h1>
@@ -130,93 +126,134 @@
         height: 100px;
         width: 100%;
     }
-    #spmid{
-        width: 80%;
-        height: 350px;
+    #spmid {
+        width: 100%;
+        height: 400px;
         display: flex;
-        margin: 0px auto;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px auto;
         background-color: #fbfbfd;
+        padding: 0 30px;
+        box-sizing: border-box;
     }
-    #spmid .left{
-        width: 50%;
-        height: 350px;
-        border: 2px;
-        /* background-color: #ff0404; */
-        overflow: hidden;
-        display: flex;
-        align-items: center; /* 使得schoollogo1在交叉轴上居中，即垂直居中 */
-        justify-content: center; /* 使得schoollogo1在主轴上居中，即水平居中 */
-    }   
-     #spmid .right{
-        width: 50%;
-        height: 350px;
-        border: 2px;
-        /* background-color: #1717c9; */
-        overflow: hidden;
-        display: flex;
-        align-items: center; /* 使得schoollogo1在交叉轴上居中，即垂直居中 */
-        justify-content: center; /* 使得schoollogo1在主轴上居中，即水平居中 */
-    }
-    .image-container {
-        position: relative;
-        height: 350px;
-        overflow: hidden;
+    
+    #spmid .left,
+    #spmid .right {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .image-placeholder {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 8px;
-        z-index: 1;
-        animation: pulse 1.5s infinite alternate;
-        opacity: 1;
-        transition: opacity 0.5s ease;
-    }
-    .image-placeholder.hidden {
-        opacity: 0;
-    }
-    #spmid .skillimg{
+        width: 45%;
         height: 350px;
-        margin-left: 50px;
-        position: relative;
-        z-index: 2;
-        opacity: 0;
-        transition: opacity 0.5s ease;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        box-sizing: border-box;
+        transition: transform 0.3s ease;
     }
-    #spmid .skillimg.loaded {
-        opacity: 1;
+
+    #spmid .left:hover,
+    #spmid .right:hover {
+        transform: translateY(-5px);
     }
-    #spmid .projectimg{
-        height: 350px;
-        margin-left: 50px;
-        position: relative;
-        z-index: 2;
-        opacity: 0;
-        transition: opacity 0.5s ease;
+
+    #spmid .skillimg,
+    #spmid .projectimg {
+        max-height: 280px;
+        max-width: 90%;
+        object-fit: contain;
+        border-radius: 10px;
     }
-    #spmid .projectimg.loaded {
-        opacity: 1;
+    
+    #spmid .skillimg {
+        border: 2px black solid;
     }
-    @keyframes pulse {
-        0% {
-            opacity: 0.5;
+    
+    #spmid .projectimg {
+        border: 2px white solid;
+    }
+    
+    /* 移动端适配 */
+    @media screen and (max-width: 768px) {
+        #spmid {
+            flex-direction: column;
+            height: auto;
+            padding: 20px 15px;
+            margin: 10px auto;
         }
-        100% {
-            opacity: 0.8;
+        
+        #spmid .left,
+        #spmid .right {
+            width: 90%;
+            height: auto;
+            margin-bottom: 25px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        
+        #spmid .skillimg,
+        #spmid .projectimg {
+            height: auto;
+            width: 100%;
+            max-height: 180px;
+            margin: 0 auto;
+        }
+        
+        #spmid .left:hover,
+        #spmid .right:hover {
+            transform: none;
+        }
+        
+        /* 项目标题上方的分隔线，只在移动端显示 */
+        #spbottom .text2 h1:not(:first-child)::before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: #333;
+            margin: 20px auto 15px;
+        }
+        
+        #spbottom .textbackground {
+            flex-direction: column;
+            width: 90%;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #spbottom .text1,
+        #spbottom .text2 {
+            width: 100%;
+            padding: 0px 0px;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        
+        #spbottom h1 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #spbottom p {
+            margin: 0;
+            padding: 0 10px;
+        }
+        
+        #spbottom .background {
+            height: 100vh;
+            padding: 5px 5px 30px 5px;
+            box-sizing: border-box;
         }
     }
+
+
     #spbottom .background{
         background-color: #ffffff;
         width: 100%;
-        height: 200vh;
+        height: 100%;
      }
     #spbottom .textbackground{
         background-color:#ffffff;
@@ -226,16 +263,16 @@
         display: flex;
     }
     #spbottom .text1{
-        width: 50%;
+        width: 100%;
         font-size:larger;
-        padding: 25px 30px 0 50px;
+        /* padding: 25px 30px 0 50px; */
         line-height: 55px;
     }
     #spbottom .text2{
-        width: 50%;
+        width: 100%;
         font-size: larger;
         /* height: 300px; */
-        padding: 25px 30px 0 50px;
+        /* padding: 25px 30px 0 50px; */
         line-height: 35px;
     }
     h1{
@@ -274,8 +311,6 @@
             const state = reactive({
                 fix:false,
                 num:123,
-                skillsLoaded: false,
-                projectLoaded: false,
             })
             const topline = () => {
                 if(window.scrollY>50){

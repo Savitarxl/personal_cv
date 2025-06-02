@@ -16,17 +16,11 @@
 
       <el-container id="epmid">
             <div class ="left">
-                <div class="image-container">
-                    <div class="image-placeholder" :class="{ 'hidden': bsLoaded }"></div>
-                    <img loading="lazy" src="..\assets\Photo\北师.webp" alt="北京师范大学珠海分校校徽" class="schoollogo1" :class="{ 'loaded': bsLoaded }" @load="bsLoaded = true">
-                </div>
+                <img loading="lazy" src="..\assets\Photo\北师.webp" alt="北京师范大学珠海分校校徽" class="schoollogo1">
                 <!-- <p class="schoolname1">北京师范大学.珠海</p> -->
             </div>
             <div class ="right">
-                <div class="image-container">
-                    <div class="image-placeholder" :class="{ 'hidden': mpuLoaded }"></div>
-                    <img loading="lazy" src="..\assets\Photo\澳理.webp" alt="澳门理工大学校徽" class="schoollogo2" :class="{ 'loaded': mpuLoaded }" @load="mpuLoaded = true">
-                </div>
+                <img loading="lazy" src="..\assets\Photo\澳理.webp" alt="澳门理工大学校徽" class="schoollogo2">
                 <!-- <p class="schoolname1">澳门理工大学</p> -->
             </div>
         </el-container>
@@ -145,68 +139,13 @@
         border: 2px;
         overflow: hidden;
     }
-    .image-container {
-        position: relative;
-        height: 350px;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .image-placeholder {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 8px;
-        z-index: 1;
-        animation: pulse 1.5s infinite alternate;
-        opacity: 1;
-        transition: opacity 0.5s ease;
-    }
-    
-    .image-placeholder.hidden {
-        opacity: 0;
-    }
-    
     #epmid .schoollogo1{
-        height: 350px;
+        height: 300px;
         margin-left: 50px;
-        position: relative;
-        z-index: 2;
-        opacity: 0;
-        transition: opacity 0.5s ease;
     }
-    
-    #epmid .schoollogo1.loaded {
-        opacity: 1;
-    }
-    
     #epmid .schoollogo2{
         height: 350px;
         margin-left: 50px;
-        position: relative;
-        z-index: 2;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-    
-    #epmid .schoollogo2.loaded {
-        opacity: 1;
-    }
-    
-    @keyframes pulse {
-        0% {
-            opacity: 0.5;
-        }
-        100% {
-            opacity: 0.8;
-        }
     }
     /* 移动端适配 */
     @media screen and (max-width: 768px) {
@@ -339,8 +278,6 @@
             const state = reactive({
                 fix:false,
                 num:123,
-                bsLoaded: false,
-                mpuLoaded: false,
             })
             const topline = () => {
                 if(window.scrollY>50){

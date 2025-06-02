@@ -19,10 +19,7 @@
             <h1 class="name1">邓 伟 豪<br><p class="name2">S a v i t a r</p></h1>
             </div>
             <div class ="right">
-                <div class="image-container">
-                    <div class="image-placeholder" :class="{ 'hidden': imageLoaded }"></div>
-                    <img loading="lazy" src="../assets/Photo/1.png" alt="邓伟豪的照片" class="my_photo" :class="{ 'loaded': imageLoaded }" @load="imageLoaded = true">
-                </div>
+                <img loading="lazy" src="../assets/Photo/1.png" alt="邮伟豪的照片" class="my_photo">
             </div>
         </el-container>
         
@@ -65,7 +62,7 @@
                         <br>
                         期待与各位的交流与合作！
                         <br>
-                        <samll>Version 1.0</samll>
+                        <samll>Version 2.1</samll>
                     </p>
                 </div>
             </div>   
@@ -144,52 +141,9 @@
         border: 2px;
         overflow: hidden;
     }
-    .image-container {
-        position: relative;
-        height: 450px;
-        overflow: hidden;
-        margin-left: 50px;
-    }
-    
-    .image-placeholder {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 8px;
-        z-index: 1;
-        animation: pulse 1.5s infinite alternate;
-        opacity: 1;
-        transition: opacity 0.5s ease;
-    }
-    
-    .image-placeholder.hidden {
-        opacity: 0;
-    }
-    
     #mpmid .my_photo{
         height: 450px;
-        position: relative;
-        z-index: 2;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-    
-    #mpmid .my_photo.loaded {
-        opacity: 1;
-    }
-    
-    @keyframes pulse {
-        0% {
-            opacity: 0.5;
-        }
-        100% {
-            opacity: 0.8;
-        }
+        margin-left: 50px;
     }
     .name1{
         font-size: 60px;
@@ -349,7 +303,6 @@
             const state = reactive({
                 fix:false,
                 num:123,
-                imageLoaded: false,
             })
             const topline = () => {
                 if(window.scrollY>50){
