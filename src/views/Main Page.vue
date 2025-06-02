@@ -62,7 +62,7 @@
                         <br>
                         期待与各位的交流与合作！
                         <br>
-                        <samll>Version 3.0.0</samll>
+                        <samll>Version 3.0.1</samll>
                     </p>
                 </div>
             </div>   

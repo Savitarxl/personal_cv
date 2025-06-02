@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="个人简历网站，展示专业技能、工作经验和教育背景">
+    <meta name="keywords" content="简历,个人网站,前端开发,Vue">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- 预连接常用域名，提高资源加载速度 -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <!-- 注入CDN的CSS资源 -->
+    <% for (var css of htmlWebpackPlugin.options.cdn?.css || []) { %>
+    <link rel="stylesheet" href="<%= css %>" crossorigin="anonymous">
+    <% } %>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <!-- 注入CDN的JS资源 -->
+    <% for (var js of htmlWebpackPlugin.options.cdn?.js || []) { %>
+    <script src="<%= js %>" crossorigin="anonymous"></script>
+    <% } %>
     <!-- built files will be auto injected -->
   </body>
 </html>
