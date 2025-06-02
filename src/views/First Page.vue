@@ -3,7 +3,10 @@
         <!-- 左侧简历图片区域 -->
         <div class="resume-section">
             <div class="resume-scroll">
-                <img class="resume-image" loading="lazy" src="../assets/Photo/CV.jpg" alt="简历图片">
+                <div class="image-container">
+                    <div class="image-placeholder" :class="{ 'hidden': imageLoaded }"></div>
+                    <img class="resume-image" :class="{ 'loaded': imageLoaded }" loading="lazy" src="../assets/Photo/CV.webp" alt="简历图片" @load="imageLoaded = true">
+                </div>
             </div>
         </div>
         <!-- 右侧内容区域 -->
@@ -93,14 +96,59 @@
         }
     }
 
+    .image-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    
+    .image-placeholder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 12px;
+        z-index: 1;
+        animation: pulse 1.5s infinite alternate;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+    
+    .image-placeholder.hidden {
+        opacity: 0;
+    }
+    
     .resume-image {
         width: 100%;
         max-width: 800px;
         height: auto;
         border-radius: 12px;
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease;
+        transition: all 0.5s ease;
         animation: slideInFromLeft 1s ease-out forwards;
+        opacity: 0;
+        z-index: 2;
+        position: relative;
+    }
+    
+    .resume-image.loaded {
+        opacity: 1;
+    }
+    
+    @keyframes pulse {
+        0% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 0.8;
+        }
     }
 
     /* 右侧内容区域 */
@@ -379,6 +427,7 @@
             const state = reactive({
                 fix:false,
                 num:123,
+                imageLoaded: false,
             })
 
             const topline = () => {

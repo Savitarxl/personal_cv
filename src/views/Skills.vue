@@ -16,10 +16,16 @@
 
       <el-container id="spmid">
             <div class ="left">
-                <img loading="lazy" src="../assets/Photo/skills.jpg" alt="技能展示图片" class="skillimg">
+                <div class="image-container">
+                    <div class="image-placeholder" :class="{ 'hidden': skillsLoaded }"></div>
+                    <img loading="lazy" src="../assets/Photo/skills.jpg" alt="技能展示图片" class="skillimg" :class="{ 'loaded': skillsLoaded }" @load="skillsLoaded = true">
+                </div>
             </div>
             <div class ="right">
-                <img loading="lazy" src="..\assets\Photo\Project.png" alt="项目展示图片" class="projectimg">
+                <div class="image-container">
+                    <div class="image-placeholder" :class="{ 'hidden': projectLoaded }"></div>
+                    <img loading="lazy" src="..\assets\Photo\Project.png" alt="项目展示图片" class="projectimg" :class="{ 'loaded': projectLoaded }" @load="projectLoaded = true">
+                </div>
             </div>
       </el-container>
         
@@ -151,18 +157,62 @@
         align-items: center; /* 使得schoollogo1在交叉轴上居中，即垂直居中 */
         justify-content: center; /* 使得schoollogo1在主轴上居中，即水平居中 */
     }
+    .image-container {
+        position: relative;
+        height: 350px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-placeholder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 8px;
+        z-index: 1;
+        animation: pulse 1.5s infinite alternate;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+    .image-placeholder.hidden {
+        opacity: 0;
+    }
     #spmid .skillimg{
-        height: 300px;
-        border-radius: 10px;
-        border: 2px black solid;
+        height: 350px;
+        margin-left: 50px;
+        position: relative;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    #spmid .skillimg.loaded {
+        opacity: 1;
     }
     #spmid .projectimg{
-        height: 300px;
-        border-radius: 10px;
-        border: 2px white solid;
+        height: 350px;
+        margin-left: 50px;
+        position: relative;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity 0.5s ease;
     }
-
-
+    #spmid .projectimg.loaded {
+        opacity: 1;
+    }
+    @keyframes pulse {
+        0% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 0.8;
+        }
+    }
     #spbottom .background{
         background-color: #ffffff;
         width: 100%;
@@ -224,6 +274,8 @@
             const state = reactive({
                 fix:false,
                 num:123,
+                skillsLoaded: false,
+                projectLoaded: false,
             })
             const topline = () => {
                 if(window.scrollY>50){

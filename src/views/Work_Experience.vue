@@ -15,7 +15,10 @@
       </el-container>
 
        <el-container id="wpmid">
-                <img loading="lazy" src="..\assets\Photo\work.png" alt="工作经验展示图片" class="work_photo">
+                <div class="image-container">
+                    <div class="image-placeholder" :class="{ 'hidden': workLoaded }"></div>
+                    <img loading="lazy" src="..\assets\Photo\work.png" alt="工作经验展示图片" class="work_photo" :class="{ 'loaded': workLoaded }" @load="workLoaded = true">
+                </div>
        </el-container>
         
         <!-- 底部 -->
@@ -102,8 +105,54 @@
         overflow: hidden;
     }
 
+    .image-container {
+        position: relative;
+        height: 450px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image-placeholder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 8px;
+        z-index: 1;
+        animation: pulse 1.5s infinite alternate;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+    
+    .image-placeholder.hidden {
+        opacity: 0;
+    }
+    
     #wpmid .work_photo{
         height: 450px;
+        position: relative;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    #wpmid .work_photo.loaded {
+        opacity: 1;
+    }
+    
+    @keyframes pulse {
+        0% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 0.8;
+        }
     }
     #wpbottom .background{
         background-color: #ffffff;
@@ -163,6 +212,7 @@
             const state = reactive({
                 fix:false,
                 num:123,
+                workLoaded: false,
             })
             const topline = () => {
                 if(window.scrollY>50){
